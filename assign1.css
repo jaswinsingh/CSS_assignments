@@ -1,0 +1,170 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.navigation{
+  position: relative;
+  right: 50px;
+  height: 70px;
+
+}
+
+ #upper{
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+
+li{
+float: right;
+}
+
+ #upper a{
+  padding:10px 15px;
+  display: block;
+  color: blue;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 15px;
+
+}
+
+.header{
+  background-color: #dddddd;
+}
+
+#logo{
+  float: left;
+  position: relative;
+  top: 15px;
+  left: 65px;
+  width: 90px;
+  height: auto;
+}
+
+ a:hover{
+  background-color: red;
+}
+
+  a:focus{
+    background-color: black;
+    color: green;
+
+}
+
+.banner{
+  padding: 10px ;
+  background-color: #33adff;
+}
+
+#left{
+  position: absolute;
+  left: 70px;
+  top: 105px;
+  width: 10px;
+  background: black;
+}
+
+#bannerText{
+  text-align: center;
+  color: white;
+}
+
+#right{
+  position: absolute;
+  right: 70px;
+  top: 105px;
+  width: 10px;
+  background: black;
+
+}
+
+.content{
+  margin: 70px;
+  margin-top: 10px;
+
+}
+
+.feed{
+  width: 35%;
+  height: 350px;
+  background-color: #ffff66;
+  float: left;
+  position: relative;
+}
+
+.form{
+  background-color:#f2800d;
+  height: 205px;
+  float: right;
+  width: 64%;
+}
+
+.extra{
+  margin-top: 10px;
+background-color:#80ff80;
+float:right;
+width: 64%;
+height: 135px;
+}
+.float{
+  position: absolute;
+  top: 20px;
+  left: -30px;
+  background-color: #dab3ff;
+  width: 60%;
+  height: 260px;
+}
+input{
+  display: block;
+  background-color:#ff9900;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid orange;
+}
+
+input[type=submit]{
+  padding: 10px;
+  color: white;
+}
+
+.element{
+  margin: 20px;}
+
+  .footer{
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    background-color: #00a3cc;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .bottomnav{
+    text-decoration: none;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  #lower li  ::before{
+      content: "| ";
+      padding-right: 5px;
+  }
+
+  #lower :last-child ::before{
+    content: '';
+  }
+
+  #lower{
+    list-style-type: none;
+    margin-right: 70px;
+  }
+#lower a{
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
