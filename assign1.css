@@ -1,14 +1,17 @@
-body{
+*{
   margin: 0;
   padding: 0;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .navigation{
   position: relative;
   right: 50px;
   top: 25px;
-  height: 70px;
-
 }
 
  #upper{
@@ -26,11 +29,11 @@ float: right;
   text-decoration: none;
   font-size: 15px;
   margin: 5px;
-
 }
 
 .header{
   background-color: #dddddd;
+  height: 70px;
 }
 
 #logo{
@@ -53,40 +56,49 @@ float: right;
 }
 
 .banner{
-  padding: 10px ;
   background-color: #33adff;
+  height: 90px;
+  width: 100%;
 }
 
 #left{
-  position: absolute;
-  left: 70px;
-  top: 105px;
   width: 10px;
-  background: black;
+}
+
+.limage{
+float: left;
+position: relative;
+top: 35px;
+left: 65px;
+}
+
+
+.rimage{
+float: right;
+position: relative;
+
+right: 70px;
 }
 
 #bannerText{
   text-align: center;
   color: white;
+  position: relative;
+  top: 25px;
 }
 
 #right{
-  position: absolute;
-  right: 70px;
-  top: 105px;
   width: 10px;
-  background: black;
-
 }
 
 .content{
-  margin: 70px;
-  margin-top: 10px;
+  margin: 10px 70px;
 
+  height: 50px;
 }
 
 .feed{
-  width: 35%;
+  width: 40%;
   height: 350px;
   background-color: #ffff66;
   float: left;
@@ -95,17 +107,17 @@ float: right;
 
 .form{
   background-color:#f2800d;
-  height: 205px;
+  height: 220px;
   float: right;
-  width: 64%;
+  width: 59%;
 }
 
 .extra{
-  margin-top: 10px;
+margin-top: 10px;
 background-color:#80ff80;
 float:right;
-width: 64%;
-height: 135px;
+width: 59%;
+height: 120px;
 }
 .float{
   position: absolute;
@@ -118,8 +130,8 @@ height: 135px;
 input{
   display: block;
   background-color:#ff9900;
-  padding: 5px;
-  margin-bottom: 10px;
+  padding: 5px 20px;
+  margin-bottom: 11px;
   border: 1px solid orange;
 }
 
@@ -138,29 +150,28 @@ input[type=submit]{
    text-align: center;
   position: relative;
   top: 300px;
-   height: 90px;
-}
+  height: 90px;
 
+
+}
 
 .bottomnav{
     position: absolute;
-     top: 20px;
-     text-align: center;
+    top: 35px;
     width: 100%;
     /* or   left: 0;
     right:0;*/
 }
- #lower li
- {
+
+ #lower li{
    list-style-type: none;
    display: inline;
    color: white;
  }
 
-#lower a
-{
-    text-decoration: none;
-    padding: 10px;
-    color: white;
+#lower a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
   margin-right: 3px;
 }
